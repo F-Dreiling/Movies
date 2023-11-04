@@ -16,7 +16,7 @@ function App() {
 
       // Debugging
       console.log(response.data);
-      console.log(response.data);
+      
       setMovies(response.data);
     }
     catch(err) {
